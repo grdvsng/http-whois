@@ -1,0 +1,22 @@
+{
+  "name": "http-whois",
+  "version": "1.0.0",
+  "description": "use whois via http protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grdvsng/http-whois.git"
+  },
+  "keywords": [
+    "whois"
+  ],
+  "author": "grdvsng@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grdvsng/http-whois/issues"
+  },
+  "homepage": "https://github.com/grdvsng/http-whois#readme"
+}
