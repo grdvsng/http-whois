@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    ["transform-inline-environment-variables", {
+      "include": [
+        "AUTOTESTS_API"
+      ]
+    }],
+    "babel-plugin-minify-dead-code-elimination"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "ignore": [
+    "**/__tests__",
+    "**/*.test.ts"
+  ]
+}
