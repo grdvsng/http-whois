@@ -4,7 +4,9 @@
   "description": "use whois via http protocol",
   "main": "index.js",
   "scripts": {
-    "test": "npm jest"
+    "test": "jest",
+    "lint": "npx lint",
+    "lint:fix": "npx lint fix"
   },
   "repository": {
     "type": "git",
